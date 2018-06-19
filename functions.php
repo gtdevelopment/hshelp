@@ -30,3 +30,4 @@ function get_hellosign99(){
         return $sign_url;
 }
 $sign_url = add_shortcode('hellosign99', 'get_hellosign99');
+echo("here's the sign_url: $sign_url"); // just to do a reality check and make sure you're getting the value
