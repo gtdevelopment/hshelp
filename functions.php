@@ -29,4 +29,4 @@ function get_hellosign99(){
       // call the html page with the embedded.js lib and HelloSign.open()
         return $sign_url;
 }
-add_shortcode('hellosign99', 'get_hellosign99');
+$sign_url = add_shortcode('hellosign99', 'get_hellosign99');
